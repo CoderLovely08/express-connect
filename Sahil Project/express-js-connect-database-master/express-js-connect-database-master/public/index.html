@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+<script src="javascrip/message.js"></script>
+</head>
+<body id="signup-body">
+    <div class="signup-form">
+     <div class="singup-content">
+         <div class=" signup-title title">
+             Signup
+         </div>
+         <form action="/signup" method="post" name="s" onsubmit="return check()">
+         <div class="input-boxs">
+             <div class=" signup-name input-box">
+                  <input type="text"  placeholder="First Name" name="firstnm">
+                 <input type="text" placeholder="Last Name" name="lastnm">
+             </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Enter your email" name="email"> 
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Enter your password?" name="pass">
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="conform your password?" name="Cpass">
+                </div>
+                <div class="button ">
+                    <input type="submit" value="Sumbit"/>
+                </div >
+            </form>
+                <div class="signup-text" ><a href="component/login.html">Login page?</a></div>
+         </div>
+     </div>
+    </div>
+</body>
+</html>
