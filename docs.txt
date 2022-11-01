@@ -1,8 +1,0 @@
-* meta description tag is used to display abstract of the site must use
-* hr tag for hori row
-* <center> centers everything that is inside of it
-
-* use photobucket to host images https://photobucket.com/
-* for color palette https://colorhunt.co/
-
-* 3 imp tags used in tables to structure properly---->thead/tbody/tfoot
